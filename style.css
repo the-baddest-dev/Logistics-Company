@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  min-height: 3000px;
+}
+
+.first-section{
+  background: linear-gradient(rgba(0, 40, 45, 0.6), rgba(0, 20, 25, 0.7)), url(./images/background.png);
+  min-height: 900px;
+  background-size: cover;
+}
+
+.section-width{
+  width: 1700px;
+  margin: 0 auto;
+}
+
+nav{
+  padding-top: 50px;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #4c6e6d;
+  background-color: #4c6e6d;
+  backdrop-filter: blur(58.599998474121094px);
+  border-radius: 50px;
+  padding: 18px 40px;
+}
+
+.nav-child:nth-child(1){
+  color: #FD7D46;
+  font-size: 32px;
+}
+
+.nav-child:nth-child(2){
+  display: flex;
+  gap: 20px;
+}
+
+.nav-child:nth-child(2) a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-child:nth-child(2) a:hover{
+  text-decoration: underline;
+}
+
+.nav-child:nth-child(3){
+  border: 2px solid #FD7D46;
+  background-color: #FD7D46;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+main{
+  margin-top: 100px;
+  margin-left: 500px;
+  color: #FFFFFF;
+  /* border: 2px solid yellow; */
+}
+
+main p:nth-child(1){
+  font-size: 64px;
+  font-weight: 600;
+  width: 862px;
+  height: 156px;
+}
+
+main p:nth-child(2){
+  margin-top: 30px;
+  font-size: 24px;
+  width: 862px;
+  height: 58px;
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-left: 250px;
+}
+
+.main-child a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-child:nth-child(1){
+  border: 2px solid #FD7D46;
+  background-color: #FD7D46;
+  border-radius: 20px;
+  padding: 8px 10px;
+}
+
+.main-child:nth-child(2){
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 8px 10px;
+}
+
+.main-child:nth-child(2):hover{
+  border: 2px solid #FD7D46;
+  background-color: #FD7D46;
+}
+
+.second-section{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.second-section span{
+  font-size: 40px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.second-section > .section-width > header{
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.second-section > .section-width > p{
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.grid-container{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  gap: 60px;
+}
+
+.grid-child:nth-child(1){
+  /* border: 2px solid green; */
+  background-image: url(./images/air.png);
+  border-radius: 20px;
+  min-height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-child:nth-child(2){
+  background-image: url(./images/shipping.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.grid-child:nth-child(3){
+  /* border: 2px solid red; */
+  background-image: url(./images/trucking.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.grid-child p{
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding-top: 300px;
+  padding-left: 40px;
+}
